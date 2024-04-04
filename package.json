@@ -1,0 +1,24 @@
+{
+  "name": "@tayyaba.__.ramzan/atm",
+  "version": "2.0.6",
+  "description": "A CLI mimicking an ATM, allowing users to withdraw, check balance, and get fast cash with realistic banking operations in an interactive interface.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "@tayyaba.__.ramzan/atm": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tayyaba Ramzan",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16",
+    "@tayyaba.__.ramzan/atm": "2.0.6"
+  }
+}
