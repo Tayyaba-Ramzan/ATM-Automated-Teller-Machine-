@@ -2,10 +2,6 @@
 import inquirer from 'inquirer';
 import chalk from 'chalk';
 
-console.log(chalk.bgCyan.red.bold.italic("WELCOME MY AUTOMATED TELLER MACHINE PROJECT"));
-console.log();
-console.log(chalk.cyan.bold("______________________________________________________________"));
-console.log();
 let currentBalance: number = 50000;
 let myPinCode: number = 102030;
 let pinAnswer = await inquirer.prompt([
